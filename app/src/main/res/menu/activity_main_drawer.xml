@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/ironman"
+                android:icon="@drawable/baseline_thumb_up_24"
+                android:title="Iron Man"/>
+        <item
+                android:id="@+id/capitan_america"
+                android:icon="@drawable/baseline_thumb_up_24"
+                android:title="Capitan America"/>
+        <item
+                android:id="@+id/ant_man"
+                android:icon="@drawable/baseline_thumb_up_24"
+                android:title="Ant Man"/>
+        <item
+                android:id="@+id/capitan_marvel"
+                android:icon="@drawable/baseline_thumb_up_24"
+                android:title="Capitan Marvel"/>
+        <item
+                android:id="@+id/rocket_raccoon"
+                android:icon="@drawable/baseline_thumb_up_24"
+                android:title="Rocket Raccoon"/>
+    </group>
+
+    <item android:title="Endgmae">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/baseline_thumb_up_24"
+                    android:title="Likes"/>
+            <item
+                    android:id="@+id/new_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send"/>
+        </menu>
+    </item>
+
+
+</menu>
